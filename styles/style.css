@@ -34,7 +34,6 @@
   border: 1px solid var(--accent-decor-for-button);
   box-sizing: border-box;
   cursor: pointer;
-  
 }
 
 .header__theme-menu-button:focus {
@@ -85,7 +84,7 @@
   background-color: var(--accent-color);
   color: var(--font-color);
   font-weight: 700;
-  width: 491px; 
+  width: 491px;
 }
 
 .rec-layout {
@@ -143,7 +142,7 @@
   padding: 40px 20px 40px 20px;
 }
 
-.section:last-child{
+.section:last-child {
   padding: 40px 20px 60px 20px;
 }
 
@@ -202,7 +201,7 @@
   line-height: 23.4px;
 }
 
-.word-wrap{
+.word-wrap {
   width: 360px;
 }
 
