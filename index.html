@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/light.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png">
   </head>
 
   <body class="page">
@@ -52,10 +53,7 @@
           особенно когда очень надо
         </p>
       </div>
-      <p class="rec-layout" aria-hidden="true">rec</p>
-      <div class="decorated-up"></div>
-      <div class="decorated-down"></div>
-      <div class="decorated"></div>
+      <p class="header__icon" aria-hidden="true">rec</p>
     </header>
     <main>
       <section class="section card__layout">
@@ -63,7 +61,8 @@
           Почему сосредоточиться так сложно
         </h2>
         <article class="card">
-          <h3 class="section__pretitle variant1">Многозадачность</h3>
+          <div>
+          <h3 class="section__pretitle">Многозадачность</h3>
           <p class="section_text">
             Особенно сложно сосредоточиться, когда задач много и все они —
             важные. Где же легендарная многозадачность, когда она так нужна вам
@@ -75,6 +74,8 @@
             выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
             работаем невнимательно: ошибаемся и быстро устаём.
           </p>
+          </div>
+          <div>
           <h3 class="section__pretitle">Дофамин</h3>
           <p class="section_text">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
@@ -86,6 +87,7 @@
             удовольствие. Получается замкнутый круг: чем больше отвлекаешься,
             тем больше удовольствия получаешь.
           </p>
+          </div>
         </article>
       </section>
 
@@ -139,8 +141,8 @@
           <h3 class="unic_pretitle">
             5 простых (на самом деле не очень) советов
           </h3>
-
-          <h4 class="section__pretitle">Представьте небо и облака</h4>
+        <div>
+          <h4 class="section__pretitle section__pretitle-regular">Представьте небо и облака</h4>
           <p class="section_text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -151,16 +153,18 @@
             вернуться в настоящий момент, а не волноваться о потенциальных
             проблемах из будущего.
           </p>
-
-          <h4 class="section__pretitle">Включите музыку</h4>
+        </div>
+        <div>
+          <h4 class="section__pretitle section__pretitle-regular">Включите музыку</h4>
           <p class="section_text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
             Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
             попробовать включить плейлист в «белым шумом» или нейромузыкой.
           </p>
-
-          <h4 class="section__pretitle">Прогуляйтесь</h4>
+        </div>
+        <div>
+          <h4 class="section__pretitle section__pretitle-regular">Прогуляйтесь</h4>
           <p class="section_text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a class="link" href="#" target="_blank">показал</a>, что созерцание
@@ -170,16 +174,18 @@
             ещё больше кислорода и он будет лучше работать. Но и простая
             двадцатиминутная прогулка — тоже отличный вариант.
           </p>
-
-          <h4 class="section__pretitle">Хорошо ешьте</h4>
+        </div>
+        <div>
+          <h4 class="section__pretitle section__pretitle-regular">Хорошо ешьте</h4>
           <p class="section_text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
             высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
-
-          <h4 class="section__pretitle">Читайте</h4>
+        </div>
+        <div>
+          <h4 class="section__pretitle section__pretitle-regular">Читайте</h4>
           <p class="section_text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -187,9 +193,10 @@
             часов и круто тренирует направленное внимание.
           </p>
         </div>
+        </div>
       </section>
       <section class="section">
-        <h2 class="section__pretitle unic__pretitle-two">
+        <h2 class="section__pretitle unic__pretitle-img">
           А можно в картинках?
         </h2>
         <ul class="layout-img">
@@ -236,10 +243,8 @@
         </ul>
       </section>
     </main>
-    <footer class="footer__title">
+    <footer class="footer__title footer-decorated-zone">
       <h2 class="focus">focus</h2>
-      <div class="decorated-up"></div>
-      <div class="decorated-down"></div>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
