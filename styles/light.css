@@ -10,6 +10,7 @@
   --accent-decor-for-button: rgb(53, 52, 48, 0.4);
   --rec: white;
   --rec-block: none;
+  --bt-color: rgb(53, 52, 48);
 }
 
 @media (prefers-color-scheme: light) {
