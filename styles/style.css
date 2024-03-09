@@ -88,18 +88,6 @@
   width: 491px;
 }
 
-.rec-layout {
-  position: absolute;
-  font-family: var(--font);
-  color: var(--rec);
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  inset-inline-end: 49px;
-  inset-block-start: 20px;
-  display: var(--rec-block);
-}
 
 .header__icon {
   display: var(--rec-block);
@@ -112,8 +100,8 @@
   font-weight: 400;
   line-height: 25px;
   text-transform: uppercase;
-  top: 10px;
-  right: 38px;
+  top: 20px;
+  right: 48px;
 }
 
 .header__icon::after {
@@ -123,7 +111,7 @@
   right: 0;
   width: 9px;
   height: 9px;
-  margin: -5px -20px;
+  margin: -4px -20px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--rec);
   background-color: var(--rec);
@@ -137,8 +125,8 @@
   height: 25px;
   justify-self: end;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 }
 
 .decorated-zone::after {
@@ -147,8 +135,9 @@
   border-bottom: 1px solid var(--bt-color, #ff0070);
   width: 25px;
   height: 25px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 
 }
 
@@ -301,28 +290,6 @@
   min-height: 668px;
 }
 
-.footer-decorated-zone::before {
-  content: "";
-  border-right: 1px solid var(--bt-color, #ff0070);
-  border-top: 1px solid var(--bt-color, #ff0070);
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  justify-self: end;
-  right: 10px;
-  top: 10px;
-}
-
-.footer-decorated-zone::after {
-  content: "";
-  border-left: 1px solid var(--bt-color, #ff0070);
-  border-bottom: 1px solid var(--bt-color, #ff0070);
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
 
 @media (max-width: 1023px) {
   .header__motivation {
@@ -343,7 +310,7 @@
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
-    gap: unset;
+    gap: 0px;
   }
 
   .header__theme-menu-item {
@@ -372,6 +339,7 @@
 
   .header__theme-menu {
     padding: 0;
+    padding-top: 10px;
     margin-right: 10px;
   }
 
@@ -382,23 +350,29 @@
   }
 
   .header__motivation {
-    padding: 0 10px 0 10px;
+    padding: 10px 10px 0 10px;
   }
 
-  .decorated-up {
-    inset-inline-end: 10px;
-    inset-block-start: 10px;
+  .header__icon {
+    top: 10px;
+    right: 38px;
+  }
+  
+  .header__icon::after {
+    margin: -4px -20px;
   }
 
-  .decorated {
-    inset-inline-end: 19px;
-    inset-block-start: 19px;
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .decorated-zone::after {
+    left: 10px;
+    bottom: 10px;
+  
   }
 
-  .rec-layout {
-    inset-inline-end: 38px;
-    inset-block-start: 10px;
-  }
 
   .decorated-down {
     inset-block-end: 10px;
